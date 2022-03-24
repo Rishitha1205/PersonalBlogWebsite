@@ -1,0 +1,30 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 4rem;
+  background-color: #003049;
+  color: white;
+  /* top right bottom left */
+  /* top-bottom left-right */
+}
+.menu {
+  display: flex;
+  gap: 2rem;
+}
+.menu p {
+  font-size: 20px;
+  font-style: italic;
+}
+#logo {
+  font-size: 30px;
+  font-style: bold;
+}
+@media (max-width: 500px) {
+  #logo {
+    font-size: 20px;
+  }
+  .menu p {
+    font-size: 18px;
+  }
+}
